@@ -3,6 +3,7 @@ from pathlib import Path
 import numpy as np
 from ml_metrics import mapk
 
+from src.baseline_model import get_baseline_model
 from src.load import DataProvider
 from src.utils import get_model, transform_to_item_user_csr_matrix, get_recommendations, get_purchases_by_customer
 
